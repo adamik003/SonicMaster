@@ -22,7 +22,7 @@ jobs:
       run: dotnet restore
       #run: msbuild restore NewBilet.sln -t:restore -p:RestorePackagesConfig=true
     - name: Build
-      run: dotnet build --no-restore
-      #run: msbuild NewBilet/NewBilet.csproj -t:rebuild -verbosity:diag -property:Configuration=Release
+      #run: dotnet build --no-restore
+      run: msbuild NewBilet/NewBilet.csproj -t:rebuild -verbosity:diag -property:Configuration=Release
     - name: Test
       run: dotnet test --no-build --verbosity normal
