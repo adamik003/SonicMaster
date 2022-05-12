@@ -20,7 +20,7 @@ jobs:
         dotnet-version: 5.0.x
     - name: Restore dependencies
       #run: dotnet restore
-      run: msbuild restore
+      run: msbuild restore NewBilet.sln -t:restore -p:RestorePackagesConfig=true
     - name: Build
       #run: dotnet build --no-restore
       run: msbuild NewBilet/NewBilet.csproj -t:rebuild -verbosity:diag -property:Configuration=Release
