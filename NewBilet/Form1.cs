@@ -13,7 +13,6 @@ namespace NewBilet
 {
     public partial class Form1 : Form
     {
-        MySqlConnection connection = new MySqlConnection("datasource=sql11.freesqldatabase.com;port=3306;username=sql11483539;password=mjvFMUAGj5;");
         public Form1()
         {
 
