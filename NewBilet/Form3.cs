@@ -12,7 +12,7 @@ namespace NewBilet
 {
     public partial class Form3 : Form
     {
-        public Form3()
+        public Form3(string Imie, string Nazwisko, string Kierunek, string Data, string Pokoj)
         {
             InitializeComponent();
         }
@@ -26,9 +26,14 @@ namespace NewBilet
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            Form2 four = new Form2();
+            Form1 four = new Form1(); 
             four.Show();
             this.Hide();
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

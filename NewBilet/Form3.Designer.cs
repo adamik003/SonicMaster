@@ -44,8 +44,7 @@
             this.checkBox1.Size = new System.Drawing.Size(73, 17);
             this.checkBox1.TabIndex = 0;
             this.checkBox1.Text = "Sniadanie";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
+            this.checkBox1.UseVisualStyleBackColor = true;// 
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
