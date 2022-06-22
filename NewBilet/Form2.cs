@@ -19,16 +19,16 @@ namespace NewBilet
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            Form3 three = new Form3();
-            three.Show();
-            this.Hide();
+            //Form3 three = new Form3();
+            //three.Show();
+            //this.Hide();
         }
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            Form1 three = new Form1();
-            three.Show();
-            this.Hide();
+            //Form1 three = new Form1();
+            //three.Show();
+            //this.Hide();
         }
     }
 }

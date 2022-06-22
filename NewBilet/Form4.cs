@@ -26,9 +26,9 @@ namespace NewBilet
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            Form3 four = new Form3();
-            four.Show();
-            this.Hide();
+            ///Form3 four = new Form3();
+            //four.Show();
+            //this.Hide();
         }
     }
 }
