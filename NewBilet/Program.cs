@@ -6,6 +6,8 @@ using System.Windows.Forms;
 
 namespace NewBilet
 {
+    public static LiczCene bilet = new LiczCene();
+
     static class Program
     {
         /// <summary>

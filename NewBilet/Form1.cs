@@ -16,6 +16,8 @@ namespace NewBilet
         {
             InitializeComponent();
         }
+        
+
 
         private void Button1_Click(object sender, EventArgs e)
         {
@@ -34,31 +36,6 @@ namespace NewBilet
             {
                 MessageBox.Show("Wprowadz wszystkie dane!", "Potrzebne informacje!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-        }
-
-        private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            string Kierunek = comboBox3.SelectedValue as string;
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            string Data = comboBox1.SelectedValue as string;
-        }
-
-        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            string Pokoj = comboBox2.SelectedValue as string;
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            string Imie = textBox1.Text;
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-            string Nazwisko = textBox2.Text;
         }
     }
 }
